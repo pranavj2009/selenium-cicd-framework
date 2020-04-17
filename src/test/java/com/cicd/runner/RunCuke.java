@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "src/main/java/com/cicd/cucumber_features" }, glue = {
-		"com.cicd.stepdefinations" }, monochrome = true, plugin = { "pretty","html:/target/cucumber-reports" })
+		"com.cicd.stepdefinations" }, monochrome = true, plugin = { "pretty","html:target/cucumber-reports" })
 public class RunCuke {
 
 }
